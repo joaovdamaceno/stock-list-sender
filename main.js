@@ -38,7 +38,7 @@ $(document).ready(function(){
         if(update){
           if (confirm("Você tem certeza que deseja enviar a lista de compras?")) {
             Email.send({
-                SecureToken: "3B31C70AE847293E8EF6A4B0944DD9EBADC0",
+                SecureToken: "b05e57ad-a982-4947-a970-d1900cd35f59",
                 To : 'restauranteebisucompras@gmail.com',
                 From : "restauranteebisucompras@gmail.com",
                 Subject : "Lista de compras",
