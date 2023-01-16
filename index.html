@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ebisu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <select id="category-select">
+      <option value="all">Todos</option>
+      <option value="orientais">Orientais</option>
+      <option value="peixes">Peixes</option>
+      <option value="grafica">Grafica</option>
+      <option value="higiene">Higiene</option>
+      <option value="embalagens">Embalagens</option>
+      <option value="ourominas">Ouro Minas</option>
+      <option value="bebidas">Bebidas</option>
+      <option value="verduraslegumes">Verduras/Legumes</option>
+      <option value="graosmassas">Grãos/Massas</option>
+      <option value="carnes">Carnes</option>
+      <option value="diversos">Diversos</option>
+    </select>
+    <div id="dish-container">
+      <div id="dish-section">
+      </div>
+    </div>  
+    <div class="submit-section">
+      <button id="submitButton" class="submit-button" type="submit">Enviar</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
