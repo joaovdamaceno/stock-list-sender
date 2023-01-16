@@ -65,6 +65,9 @@ input[type=number] {
 }
 
 .increase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ff3c3c;
     color: white;
     border: none;
@@ -79,6 +82,9 @@ input[type=number] {
 }
 
 .increase:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ff3c3c;
     color: white;
     border: none;
@@ -92,7 +98,10 @@ input[type=number] {
     transition: box-shadow 0.2s ease-in-out;
 }
 
-.decrease {
+.decrease {    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: #ff3c3c;
     color: white;
     border: none;
@@ -107,6 +116,9 @@ input[type=number] {
 }
 
 .decrease:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #ff3c3c;
     color: white;
     border: none;
