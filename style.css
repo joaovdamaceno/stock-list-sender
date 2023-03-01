@@ -2,7 +2,19 @@
 
 body {
   background: url("images/bg.png") center center fixed;
-  background-size: cover;
+  background-size: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  body {
+    background: url("images/bg.png") center center fixed;
+    background-size: 300%;
+  }
+}
+
+input[type="button"]
+{ 
+  touch-action: manipulation; 
 }
 
 /* Remove default arrows on number input */
