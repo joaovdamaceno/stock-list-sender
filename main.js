@@ -2,10 +2,6 @@ const decreaseButtons = document.querySelectorAll('.decrease');
 const increaseButtons = document.querySelectorAll('.increase');
 const dishInputs = document.querySelectorAll('.dish-input input');
 
-document.ondblclick = function(e) {
-    e.preventDefault();
-}
-
 decreaseButtons.forEach(button => {
     button.addEventListener('click', event => {
         const input = event.target.nextElementSibling;
